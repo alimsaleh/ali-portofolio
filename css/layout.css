@@ -989,7 +989,7 @@ footer {
    position: relative;
 }
 
-footer a, footer a:visited { color: #525252; }
+footer a, footer a:visited { color: #303030; }
 footer a:hover, footer a:focus { color: #fff; }
 
 /* copyright */
@@ -1007,6 +1007,7 @@ footer .copyright li {
    display: inline;
 }
 footer .copyright li:before {
+    /*display: none;*/
     content: "\2022";
     padding-left: 10px;
     padding-right: 10px;
@@ -1031,7 +1032,10 @@ footer .social-links li {
 }
 
 footer .social-links li:first-child { margin-left: 0; }
-
+#styleshout-credits {
+  /*position: absolute;
+  right: -125px;*/
+}
 /* Go To Top Button */
 #go-top {
 	position: absolute;
